@@ -20,18 +20,19 @@
 
   <body>
     <form>
-      <h2>Please fill all the fields</h2>
+      
+        <h2>Please fill all the fields</h2>
       First name <input type="text" id="fname" /><br />
 
       Last name <input type="text" id="lname" /><br />
 
       Email <input type="text" id="email" /><br />
 
-      Age<input type="number" id="age" />  <span>Age should be less than between 8 and 60</span><br />
+      Age<input type="number" id="age" />  <br />
 
-      Phone number<input type="text" id="number" />  <span>Must be 10 digits</span><br />
+      Phone number<input type="text" id="number" />  <br />
       Password <input type="password" id="password" />  
-      <span>length should be at least 6,start with a letter and end with a digit</span> <br />
+      <br />
 
       Gender<input type="radio" name="gender" id="male" />Male
       <input type="radio" name="gender" id="female" />Female
@@ -40,6 +41,17 @@
       <button onclick="return validate()">Submit now</button> <br />
       
     </form>
+    <p>
+    Note:
+    <ul>
+     <li>Name should not contain any number or symbol </li>
+      <li>Email should be valid
+      <li>Age should be less than between 8 and 60 </li>
+      <li>Phone number must be of 10 digits </li>
+      <li> Password length should be at least 6,should start with a letter and end with a digit </li> 
+        
+    </ul>
+    </p>
 
     
   </body>
