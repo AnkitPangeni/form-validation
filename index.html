@@ -1,0 +1,46 @@
+<!-- By Ankit Pangeni. Link to this code is https://bit.ly/formvalidationcode -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        padding: 15px;
+        margin: 5px;
+        width: px;
+      }
+    </style>
+<script src="script.js"></script>
+  </head>
+
+  <body>
+    <form>
+      <h2>Please fill all the fields</h2>
+      First name <input type="text" id="fname" /><br />
+
+      Last name <input type="text" id="lname" /><br />
+
+      Email <input type="text" id="email" /><br />
+
+      Age<input type="number" id="age" />  <span>Age should be less than between 8 and 60</span><br />
+
+      Phone number<input type="text" id="number" />  <span>Must be 10 digits</span><br />
+      Password <input type="password" id="password" />  
+      <span>length should be at least 6,start with a letter and end with a digit</span> <br />
+
+      Gender<input type="radio" name="gender" id="male" />Male
+      <input type="radio" name="gender" id="female" />Female
+      <input type="radio" name="gender" id="others" />Others <br /><br />
+
+      <button onclick="return validate()">Submit now</button> <br />
+      
+    </form>
+
+    
+  </body>
+</html>
