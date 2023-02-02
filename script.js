@@ -4,6 +4,7 @@
       {
         var fname = document.getElementById("fname").value;
         var lname = document.getElementById("lname").value;
+        var username = document.getElementById("username").value
         var email = document.getElementById("email").value;
         var age = document.getElementById("age").value;
         var number = document.getElementById("number").value;
