@@ -24,6 +24,11 @@
           alert("Please enter a valid last name");
           return false;
         }
+            
+            else if (username.length < 4) {
+          alert("Length of username should be at least 4");
+          return false;
+            }
          else if (email.match(/^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,}$/) == null)
           {
             alert("Please enter a valid email");
